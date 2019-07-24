@@ -1,0 +1,279 @@
+body {
+    color: black;
+    font-family: Tahoma;
+}
+
+
+.header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    height: 175px;
+}
+
+#otherdetails {
+    margin-left: 30px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu a {
+  font-size: 20px;
+  color: grey;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.menu a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.socials {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+ol {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#ProfileSection {
+    color: black;
+
+}
+
+.nav-login {
+  text-align: center;
+}
+
+.nav-login form{
+  text-align: center;
+}
+.nav-login form input {
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+.nav-login form button {
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+.nav-login form button:hover {
+    background-color: #ccc;
+}
+
+.nav-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    border: none;
+    float: left;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+.signup-form {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.typeinput {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 8px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+#RegisterSection h2 {
+    text-align: center;
+}
+
+#RegisterSection p {
+    text-align: center;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 30px;
+}
+
+
+.signup-form select {
+    width: 60px;
+    height: 20px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: black;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.signup-form button:hover {
+    background-color: #111;
+}
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+  color: grey;
+  font-family: Tahoma;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+#newcheckboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#newcheckboxes label {
+  display: block;
+}
+
+#newcheckboxes label:hover {
+  background-color: #1e90ff;
+}
+
+.example {
+  margin: 50px;
+}
+.css-label {
+  cursor: pointer;
+}
+.css-checkbox {
+  display: none;
+}
+.glyphicon-minus {
+  display: none;
+}
+.css-checkbox:checked + .css-label .glyphicon-minus {
+  display: inline;
+}
+.css-checkbox:checked + .css-label .glyphicon-plus {
+  display: none;
+}
+.css-content {
+  display: none;
+}
+.css-checkbox:checked ~ .css-content {
+  display: block;
+}
+
+#RegisterSection a{
+  font-weight: bold;
+}
+
+#RegisterSection a:hover {
+  cursor: pointer;
+}

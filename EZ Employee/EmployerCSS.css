@@ -1,0 +1,98 @@
+body {
+    font-family: Tahoma;
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#otherdetails {
+    margin-left: 30px;
+}
+
+
+.header a {
+   float: right;
+}
+
+button {
+    border-radius: 4px;
+
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+form {
+    text-align: center;
+}
+
+td {
+    background-clip: padding-box;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    background-color: #7FFFD4;
+    table-layout:fixed;
+    width: 100px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+th {
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+    table-layout:fixed;
+    width: 200px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+select {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma;
+    background-clip: padding-box;
+    border-radius: 5px;
+}
+
+
+
+
+
